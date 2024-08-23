@@ -1,0 +1,97 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+img {
+    width: 500px;
+    height: 500px;
+}
+
+p {
+    margin: 20px;
+}
+.post {
+    background-color: aliceblue;
+    max-width: 500px;
+    align-items: center;
+    align-self: center;
+
+}
+
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: aliceblue;
+}
+
+.post-img {
+    align-content: center;
+}
+
+.post-body {
+    color:black;
+}
+
+.post-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+
+
+.post-header i.fa-html5 {
+    font-size: 40px; 
+    color: black; 
+    margin-right: 8px;
+}
+
+.post-user-info {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.1;
+}
+
+.username {
+    font-weight: bold;
+    font-size: 14px;
+    margin: 0;
+}
+
+.user-handle {
+    font-size: 12px;
+    margin: 0;
+    color: black; 
+    margin-top: 2px; 
+}
+
+.fa-ellipsis-vertical {
+    font-size: 20px; 
+    color: gray;
+    margin-left: auto; 
+}
+
+.post-icons-left {
+    display: flex;
+    gap: 15px; 
+}
+
+.post-icons-left i,
+.post-icons-right i {
+    font-size: 24px; 
+    color: black; 
+}
+
+.post-icons-right {
+    margin-left: auto; 
+}
